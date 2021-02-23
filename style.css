@@ -1,0 +1,39 @@
+/* ------ CSS3 - HTML Canvas Particles - Rotating Particle Basics ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+canvas {
+    position: absolute;
+    background: linear-gradient(#25364f, #4d71a5, #9bc4ff);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+/*----------------------------------*/
+#title1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-family: 'Nosifer', cursive; | font-family: 'Creepster', cursive; | font-family: 'Butcherman', cursive; | font-family: 'Metal Mania', cursive; */
+    font-family: 'Metal Mania', cursive;
+    filter: drop-shadow(-1px 6px 3px rgba(37, 54, 79, 0.75));
+    font-size: 120px;
+    line-height: 110px;
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.926);
+    border-top: 5px solid rgba(255, 255, 255, 0.926);
+}
+#title1::before {
+    content: 'JavaScript';
+    position: absolute;
+    bottom: -50px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin: 150px;
+}
+/*----------------------------------*/
